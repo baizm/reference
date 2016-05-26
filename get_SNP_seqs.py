@@ -1,6 +1,5 @@
 import subprocess
 import sys
-import glob
 
 #Usage : python get_SNP_seqs.py contig_positions.txt reference.fasta output.fasta
 
