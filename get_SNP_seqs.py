@@ -22,3 +22,5 @@ for i in f:
 targets = ' '.join(contigs)
 
 subprocess.call('samtools faidx %s %s > %s' % (reference, targets, out_file), shell=True)
+
+#example: python get_SNP_seqs.py ../bgc/lanes12/beta_outliers_contigs.txt AloPal_combined.a.lines.fasta outliers_beta_300bp.fasta
